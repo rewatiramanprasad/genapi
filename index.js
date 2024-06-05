@@ -26,6 +26,12 @@ const apiValidation = async (req, res, next) => {
     await next();
   }
 };
+app.get("/", (req, res) => {
+    res
+      .status(200)
+      .send({ success: true, data: [], message: "hello world" })
+      .end();
+  });
 app.get("/hello", (req, res) => {
   res
     .status(200)
