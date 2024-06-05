@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "It contains api route that is used to call gemini.",
   "main": "index.js",
-  "type": "module",
+
   "scripts": {
     "test": "mocha ./test/index.test.mjs --timeout 5000",
     "start": "nodemon index.js"
