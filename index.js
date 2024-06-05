@@ -82,6 +82,6 @@ app.post("/gemini/suggestion", apiValidation, async (req, res) => {
   }
 });
 
-module.exports= { app };
+// module.exports= { app };
 
 app.listen(process.env.PORT, () => console.log(`listen to server .....`));
